@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  ceph-csi-cephfs:
+  - apiVersion: v1
+    appVersion: v2.0-canary
+    created: "2020-03-27T17:27:57.759794631+08:00"
+    description: Container Storage Interface (CSI) driver, provisioner, and attacher
+      for Ceph cephfs
+    digest: c099af099d4e9073eac5a047ef28a205c97801d9c03b4eb0ac63fee92b4142e2
+    home: https://github.com/bigtera-ce/ceph-csi
+    icon: https://bigtera-ce.github.io/ceph-csi/assets/bigtera-logo.png
+    keywords:
+    - bigtera
+    - virtualstor
+    - ceph
+    - cephfs
+    - ceph-csi
+    name: ceph-csi-cephfs
+    sources:
+    - https://github.com/bigtera-ce/ceph-csi/tree/bigtera-csi/charts/ceph-csi-cephfs
+    urls:
+    - cephfs/ceph-csi-cephfs-2.0-canary.tgz
+    version: 2.0-canary
+  ceph-csi-rbd:
+  - apiVersion: v1
+    appVersion: v2.0-canary
+    created: "2020-03-27T17:27:57.761187468+08:00"
+    description: Container Storage Interface (CSI) driver, provisioner, snapshotter,
+      and attacher for Ceph RBD
+    digest: f5f7538c1c213f8461c0f498917d3a1915058bd5680e1245db5cf8026a5e7c7a
+    home: https://github.com/bigtera-ce/ceph-csi
+    icon: https://bigtera-ce.github.io/ceph-csi/assets/bigtera-logo.png
+    keywords:
+    - bigtera
+    - virtualstor
+    - ceph
+    - rbd
+    - ceph-csi
+    name: ceph-csi-rbd
+    sources:
+    - https://github.com/bigtera-ce/ceph-csi/tree/bigtera-csi/charts/ceph-csi-rbd
+    urls:
+    - rbd/ceph-csi-rbd-2.0-canary.tgz
+    version: 2.0-canary
+generated: "2020-03-27T17:27:57.758247845+08:00"
